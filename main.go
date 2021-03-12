@@ -177,7 +177,6 @@ func generatePrivateKey(bitSize int) (*rsa.PrivateKey, error) {
 		return nil, err
 	}
 
-	log.Println("Private Key generated")
 	return privateKey, nil
 }
 

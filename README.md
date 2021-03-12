@@ -1,7 +1,9 @@
 # Serve current folder with SFTP
 
 ```bash
-curl --output
+# for macOS
+curl -L https://github.com/yene/sftpserver/releases/download/0.1.0/sftpserver-macos --output sftpserver
+chmod +x ./sftpserver
 ./sftpserver
 # login with any user, and the given password
 ```
