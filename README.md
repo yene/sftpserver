@@ -2,7 +2,7 @@
 
 ```bash
 # for macOS
-curl -L https://github.com/yene/sftpserver/releases/download/0.1.0/sftpserver-macos --output sftpserver
+curl -L https://github.com/yene/sftpserver/releases/download/0.1.1/sftpserver-macos --output sftpserver
 chmod +x ./sftpserver
 ./sftpserver
 # connect to port 2222, with any user, and the given password
